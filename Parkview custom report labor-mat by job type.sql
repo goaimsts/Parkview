@@ -11,7 +11,7 @@ insert into @jobTypes
 select CODE
 from aims.cod 
 where [TYPE] = 'j'	
-	--and code = 'JGREMO'	
+	and code = 'JGREMO'	
 
 declare @facilities table(
 	facilityCode varchar(50)
